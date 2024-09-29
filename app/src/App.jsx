@@ -3,7 +3,7 @@ import './App.css';
 import { useEffect, useState } from "react";
 import SearchResult from "./components/SearchResult/SearchResult.jsx";
 
-export const BASE_URL = "https://foodyzone-npmu.onrender.com:9000"
+export const BASE_URL = "https://foodyzone-npmu.onrender.com"
 
 const App = () => {
   const [data, setData] = useState(null)
